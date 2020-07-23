@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="todos.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		#heading{
+			text-align: center;
+			font-family: 'Raleway', sans-serif;
+			font-size:100px;
+			text-decoration: line-through;
+		}
+	</style>
+</head>
+<body>
+
+	<h1 id="heading">TODO LIST !</h1>
+
+<div id="container">
+	<h1>To-Do List <span id="toggle-form"><i class="fa fa-plus"></i></span></h1>
+	<input type="text" placeholder="Add New Todo">
+
+	<ul>
+		<li><span><i class="fa fa-trash"></i></span> Exercise daily</li>
+		<li><span><i class="fa fa-trash"></i></span> Learn something new</li>
+		<li><span><i class="fa fa-trash"></i></span> Complete the assignment</li>
+	</ul>
+</div>
+
+<script type="text/javascript" src="todos.js"></script>
+</body>
+</html>

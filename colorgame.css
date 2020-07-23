@@ -1,0 +1,104 @@
+body{
+	background-color: #232323;
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+}
+.square{
+	width:30%;
+	padding-bottom:30%;
+	background:purple;
+	float:left;
+	margin:1.66%;
+	border-radius:15%;
+	transition: background 0.6s;
+	-webkit-transistion:background 0.6s;
+	-moz-transistion:background 0.6s;
+
+}
+
+.container{
+	max-width:650px;
+	margin:0 auto;
+}
+h1{
+	color:black;
+	text-align: center;
+	font-weight:normal;
+	font-size: 40px;
+}
+
+span{
+	color:black;
+}
+#message{
+	color:black;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-top: 5px;
+}
+ #playAgain{
+ 	margin:0 auto;
+ 	display:flex;
+ 	justify-content: center;
+ 	width:15%;
+ 	height: 50px;
+ 	background-color: lightgreen;
+ 	padding-top: 9px;
+ 	font-size: 25px;
+ 	font-weight:bolder;
+ 	margin-bottom: 10px;
+ 	font-family: 'Raleway', sans-serif;
+ }
+#easy{
+	width:30%;
+	margin-left: 10px;
+	background-color: green;
+	height:30px;
+	font-size:1.2rem;
+	font-weight:bold;
+	border-radius:9px;
+	font-family: 'Raleway', sans-serif;
+}
+#medium{
+	width:30%;
+	margin-left: 20px;
+	background:orange;
+	height:30px;
+	font-size:1.2rem;
+	font-weight:bold;
+	border-radius:9px;
+	font-family: 'Raleway', sans-serif;
+
+}
+#hard{
+	width:30%;
+	margin-left: 20px;
+	background:red;
+	height:30px;
+	font-size:1.2rem;
+	font-weight:bold;
+	border-radius:9px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+#stripe{
+	background:white;
+	height:30px;
+	text-align: center;
+}
+.difficulty{
+	margin-top: 10px;
+}
+#heading{
+	border:0.1px solid black;
+	background-color: pink;
+}
+h1 span{
+	text-transform: uppercase;
+}
+
+#colorDisplay{
+ font-size:170%;
+}
+
